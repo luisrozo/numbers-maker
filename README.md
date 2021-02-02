@@ -3,6 +3,7 @@
 TypeScript project to generate some numbers based on different algorithms. To execute it, run this command on root folder:
 
 ```
+npm i
 npm run start
 ```
 
@@ -29,3 +30,13 @@ With this configuration, the program will generate 10 numbers in sequential orde
 * **fibonacciNumbers**
 
 If you enter a non-listed algorithm, then random numbers will be generated.
+
+## Implementation
+
+*Strategy* pattern has been selected for implemeting different algorithms. The UML diagram looks like this:
+
+![Strategy diagram](img/strategy.png)
+
+## Future work
+
+Implementing an Angular-based interface to see results on browser would be desirable.
