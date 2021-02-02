@@ -1,0 +1,8 @@
+# ignore compiled files
+out
+
+# ignore dependency directory
+node_modules
+
+# ignore lock
+package-lock.json
